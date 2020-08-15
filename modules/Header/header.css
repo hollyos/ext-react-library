@@ -1,0 +1,7 @@
+.global-header {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  height: 64px;
+}
