@@ -19,6 +19,7 @@ automation/.vs/*
 /build
 /storybook-static
 /public
+/lib
 
 # terraform
 /tools
