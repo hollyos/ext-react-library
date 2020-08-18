@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <!-- Meta -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <title>React Library Demo</title>
+
+    <!-- React -->
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script src="lib/react-library.bundle.js"></script>
+  </head>
+
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+
+    <script>
+      const ReactElement = React.createElement;
+      const { Header }  = ReactLibrary.default.modules;
+
+      ReactDOM.render(
+        ReactElement(Header, null, 'React Component'),
+        document.getElementById('root')
+      );
+    </script>
+  </body>
+
+</html>

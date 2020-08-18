@@ -1,9 +1,10 @@
 import React from 'react';
-import { Nav, Title } from '../../index.js';
+import Nav from '../../components/Nav/Nav';
+import Title from '../../components/Title/Title';
 import "./header.css";
 
-const Header = (props) => (
-  <header className="global-header" {...props}>
+const Header = () => (
+  <header className="global-header">
     <Title className="global-title" />
     <Nav className="global-nav" />
   </header>

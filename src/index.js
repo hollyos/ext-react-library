@@ -1,4 +1,17 @@
-export { default as Nav } from './components/Nav/Nav';
-export { default as Title } from './components/Title/Title';
+// Components
+import  Nav from './components/Nav/Nav';
+import  Title from './components/Title/Title';
 
-export { default as Header } from './modules/Header/Header';
+// Modules
+import  Header from './modules/Header/Header';
+
+// Library
+export default {
+  components: {
+    Nav,
+    Title,
+  },
+  modules: {
+    Header,
+  },
+};

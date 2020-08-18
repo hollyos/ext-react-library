@@ -8,10 +8,11 @@ module.exports = {
     '@babel/preset-react',
   ],
   plugins: [
+    '@babel/plugin-transform-shorthand-properties',
     ['@babel/plugin-transform-modules-umd', {
       exactGlobals: true,
       globals: {
-        index: 'AnimalApi'
+        index: 'ReactLibrary'
       }
     }],
   ],
