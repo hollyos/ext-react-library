@@ -45,6 +45,7 @@ yarn.lock
 .npmrc
 !common/*.npmrc
 .vscode/launch.json
+package-lock.json
 
 # User-specific files
 *.rsuser
