@@ -4,3 +4,11 @@
   list-style: none;
   padding: 0;
 }
+
+.global-nav ul li {
+  padding: 0 5px;
+}
+
+.global-nav ul li:not(:first-child) {
+  margin-left: 5px;
+}
